@@ -25,4 +25,4 @@ cat  $1 | tr '\n' '|' | sed 's/----------------------------------------/\n/' \
 
 # summary
 
-printf "\n\n*** SUMMARY:\n$(echo $PPS | bc) PPS\n\n$(echo $MBPS | bc) Mbps\n\n"
+printf "\n\n*** SUMMARY (nameif):\n$(echo $PPS | bc) PPS\n\n$(echo $MBPS | bc) Mbps\n\n"
